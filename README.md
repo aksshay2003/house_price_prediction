@@ -27,6 +27,7 @@ This project demonstrates a complete MLOps-driven machine learning pipeline for 
 - **Frontend (optional)**: Node.js, React.js (for visualizing predictions)
 
 ---
+```
 ## 📂 Project Structure
 
 house_price_prediction/
@@ -48,7 +49,7 @@ house_price_prediction/
 └── README.md
 
 
-
+```
 ---
 
 ## ⚙️ How to Run
