@@ -47,9 +47,7 @@ house_price_prediction/
 ├── .gitignore
 └── README.md
 
-yaml
-Copy
-Edit
+
 
 ---
 
