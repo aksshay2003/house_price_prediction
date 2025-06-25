@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1747888057887
+current_stage: None
+description: null
+last_updated_timestamp: 1747888057887
+name: house_price_predictor
+run_id: 0677c0e548ab4a019efe759a7b836849
+run_link: null
+source: file:D:/AI/HousePrediction/mlruns/298339837539629672/0677c0e548ab4a019efe759a7b836849/artifacts/model
+status: READY
+status_message: null
+storage_location: file:D:/AI/HousePrediction/mlruns/298339837539629672/0677c0e548ab4a019efe759a7b836849/artifacts/model
+user_id: null
+version: 1

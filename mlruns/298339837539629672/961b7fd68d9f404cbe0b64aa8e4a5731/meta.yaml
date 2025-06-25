@@ -1,0 +1,15 @@
+artifact_uri: file:D:/AI/HousePrediction/mlruns/298339837539629672/961b7fd68d9f404cbe0b64aa8e4a5731/artifacts
+end_time: 1748712012803
+entry_point_name: ''
+experiment_id: '298339837539629672'
+lifecycle_stage: active
+run_id: 961b7fd68d9f404cbe0b64aa8e4a5731
+run_name: learned-vole-112
+run_uuid: 961b7fd68d9f404cbe0b64aa8e4a5731
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748711959927
+status: 3
+tags: []
+user_id: user

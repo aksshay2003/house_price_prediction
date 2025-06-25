@@ -1,0 +1,15 @@
+artifact_uri: file:D:/AI/HousePrediction/mlruns/298339837539629672/0677c0e548ab4a019efe759a7b836849/artifacts
+end_time: 1747888058958
+entry_point_name: ''
+experiment_id: '298339837539629672'
+lifecycle_stage: active
+run_id: 0677c0e548ab4a019efe759a7b836849
+run_name: agreeable-grub-641
+run_uuid: 0677c0e548ab4a019efe759a7b836849
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747888034869
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,106 @@
+What is experiment_tracker?
+In ZenML, an experiment tracker is a tool that helps log and monitor machine learning experiments.
+It tracks model performance, parameters, and metrics across multiple runs.
+
+Example of Experiment Trackers in ZenML:
+MLflow (Most common)
+Weights & Biases (W&B)
+TensorBoard
+
+
+### **🔍 What is a ZenML Stack?**  
+
+In **ZenML**, a **stack** is a collection of components that define where and how your ML pipeline runs.  
+Think of it as a **pre-configured environment** for running your ML workflow.
+
+---
+
+## **🛠️ Components of a ZenML Stack**  
+A **ZenML Stack** consists of multiple components, such as:
+
+| Component | Purpose | Example |
+|-----------|---------|---------|
+| **Orchestrator** | Runs and manages your ML pipelines | `default` (local), `kubeflow` |
+| **Artifact Store** | Stores data, models, and artifacts | `default` (local), `s3`, `gcs` |
+| **Experiment Tracker** | Logs ML experiments and results | `mlflow_tracker` |
+| **Model Registry** (optional) | Stores and tracks model versions | `mlflow_model_registry` |
+| **Step Operator** (optional) | Runs individual steps on different compute resources | `kubernetes_operator` |
+| **Secrets Manager** (optional) | Manages credentials securely | `aws_secrets_manager` |
+
+### **Example: Your Stack (`mlflow_stack`)**
+In your case, your stack **`mlflow_stack`** consists of:
+```
+ACTIVE STACK    NAME         ORCHESTRATOR      ARTIFACT STORE    EXPERIMENT TRACKER
+(default)       mlflow_stack  default          default           mlflow_tracker
+```
+- **Orchestrator:** `default` (runs pipelines locally)
+- **Artifact Store:** `default` (stores data locally)
+- **Experiment Tracker:** `mlflow_tracker` (logs experiments with MLflow)
+
+---
+
+## **📍 Where Does the Stack Exist?**
+### **1️⃣ Stack Configuration Location**
+ZenML stores **stack configurations** in:
+- **Locally** (per project) → Inside the `.zen/` folder in your project.
+- **Globally** (across projects) → Inside `~/.config/zenml/` (Linux/Mac) or `C:\Users\your_user\.config\zenml\` (Windows).
+
+### **2️⃣ View All Stacks**
+To see **all available stacks**, run:
+```sh
+zenml stack list
+```
+
+### **3️⃣ View the Active Stack**
+To check the **current active stack**, run:
+```sh
+zenml stack describe
+```
+
+### **4️⃣ Switch to Another Stack**
+If you have multiple stacks and want to use a different one:
+```sh
+zenml stack set <stack_name>
+```
+
+---
+
+## **📌 Why Do You Need a Stack?**
+A stack ensures **reproducibility** and **consistency** by defining **where** and **how** your ML pipelines run.  
+
+For example:
+- **Local development** → Use `default` orchestrator and local storage.
+- **Production setup** → Use **Kubeflow for orchestration**, **S3 for storage**, and **MLflow for tracking**.
+
+---
+
+## **🛠️ Example: Creating a Custom Stack**
+If you want to create a stack that runs in **AWS**:
+```sh
+zenml stack register aws_stack \
+    -o kubeflow_orchestrator \
+    -a s3_artifact_store \
+    -e mlflow_tracker
+```
+Then activate it:
+```sh
+zenml stack set aws_stack
+```
+Now, all **ZenML pipelines will run on AWS** instead of locally.
+
+---
+
+## **🔎 Your Current Stack Setup**
+To summarize, you **created and set up `mlflow_stack`** because:
+- The **default stack** couldn't be modified.
+- You needed **MLflow** as an experiment tracker.
+- Your stack is now properly configured for tracking experiments.
+
+---
+
+### 🚀 **Next Steps**
+Now, your stack is ready! Run:
+```sh
+python run_pipeline.py
+```
+Let me know if you have more questions! 🔥🚀

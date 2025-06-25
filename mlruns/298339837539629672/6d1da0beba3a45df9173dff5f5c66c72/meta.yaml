@@ -1,0 +1,15 @@
+artifact_uri: file:D:/AI/HousePrediction/mlruns/298339837539629672/6d1da0beba3a45df9173dff5f5c66c72/artifacts
+end_time: 1748709893819
+entry_point_name: ''
+experiment_id: '298339837539629672'
+lifecycle_stage: active
+run_id: 6d1da0beba3a45df9173dff5f5c66c72
+run_name: hilarious-carp-268
+run_uuid: 6d1da0beba3a45df9173dff5f5c66c72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748709850761
+status: 3
+tags: []
+user_id: user

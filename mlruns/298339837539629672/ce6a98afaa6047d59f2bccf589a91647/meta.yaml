@@ -1,0 +1,15 @@
+artifact_uri: file:D:/AI/HousePrediction/mlruns/298339837539629672/ce6a98afaa6047d59f2bccf589a91647/artifacts
+end_time: 1747817420215
+entry_point_name: ''
+experiment_id: '298339837539629672'
+lifecycle_stage: active
+run_id: ce6a98afaa6047d59f2bccf589a91647
+run_name: learned-dove-958
+run_uuid: ce6a98afaa6047d59f2bccf589a91647
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747817305236
+status: 3
+tags: []
+user_id: user

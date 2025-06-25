@@ -1,0 +1,15 @@
+artifact_uri: file:D:/AI/HousePrediction/mlruns/298339837539629672/4d09897c44a741f1ba5b83940fb90c05/artifacts
+end_time: 1748717152027
+entry_point_name: ''
+experiment_id: '298339837539629672'
+lifecycle_stage: active
+run_id: 4d09897c44a741f1ba5b83940fb90c05
+run_name: nebulous-crow-855
+run_uuid: 4d09897c44a741f1ba5b83940fb90c05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748717030181
+status: 3
+tags: []
+user_id: user

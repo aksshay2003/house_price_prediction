@@ -1,0 +1,15 @@
+artifact_uri: file:D:/AI/HousePrediction/mlruns/298339837539629672/fcc2b1addd764daa83d00b4902b46533/artifacts
+end_time: 1748506492943
+entry_point_name: ''
+experiment_id: '298339837539629672'
+lifecycle_stage: active
+run_id: fcc2b1addd764daa83d00b4902b46533
+run_name: funny-squirrel-711
+run_uuid: fcc2b1addd764daa83d00b4902b46533
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748506465094
+status: 3
+tags: []
+user_id: user
